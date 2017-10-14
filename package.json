@@ -1,0 +1,25 @@
+{
+  "name": "core-mslu",
+  "version": "0.0.0",
+  "description": "mslu API",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemoon server.js"
+  },
+  "keywords": [
+    "ExpressJS",
+    "API",
+    "RESTful"
+  ],
+  "author": "mslu",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "mongodb": "^2.2.33"
+      },
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  }
+}
