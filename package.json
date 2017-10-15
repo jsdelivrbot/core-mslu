@@ -1,25 +1,32 @@
 {
   "name": "core-mslu",
   "version": "0.0.0",
-  "description": "mslu API",
-  "main": "server.js",
+  "description": "MSLU schedule scraper",
+  "engines": {
+    "node": "6.11.1"
+  },
+  "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemoon server.js"
+    "dev": "nodemon index.js"
   },
   "keywords": [
-    "ExpressJS",
+    "node",
+    "heroku",
+    "express",
     "API",
-    "RESTful"
+    "RESTful",
+    "scraper"
   ],
-  "author": "mslu",
   "license": "ISC",
   "dependencies": {
-    "body-parser": "^1.18.2",
     "express": "^4.16.2",
-    "mongodb": "^2.2.33"
-      },
+    "request": "^2.83.0"
+  },
   "devDependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "fs": "0.0.1-security",
     "nodemon": "^1.12.1"
   }
 }
